@@ -1,0 +1,32 @@
+{
+  "name": "api-creation-demo",
+  "version": "1.0.0",
+  "description": "Typescript & node.js api",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grecoww/API-creation-demo.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "grecoww",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grecoww/API-creation-demo/issues"
+  },
+  "homepage": "https://github.com/grecoww/API-creation-demo#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.2",
+    "@types/node": "^20.7.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  }
+}
